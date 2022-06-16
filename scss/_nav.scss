@@ -1,0 +1,23 @@
+.nav {
+  background-color: #198754;
+  position: sticky;
+  top: 0;
+
+  &--brand {
+    color: #ffcc00;
+    font-size: 25px;
+    margin-left: -25px;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+
+  a {
+    color: currentColor;
+    text-decoration: none;
+  }
+}

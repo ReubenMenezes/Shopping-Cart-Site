@@ -1,0 +1,12 @@
+@forward 'vendors/all';
+@forward 'nav';
+
+body{
+    background-color:hsl(0, 0%, 98%);
+}
+
+h2{
+    text-align:center;
+    color:#333;
+    font-size:35px;
+}
